@@ -1,0 +1,182 @@
+
+
+
+/*********************resposive***********************/
+
+
+
+@media screen and (max-width: 1024px) {
+
+    .app-container {
+        padding: 0px 40px;
+    }
+  
+    .nav-menu {
+        padding-left: 0px;
+    }
+
+    .mobile-btn , .close-btn  {
+        display: block;
+        cursor: pointer;
+    }
+
+    
+
+    .navigation-bar .logo-main {
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+
+    .navigation-bar .mobile-nav .nav-menu .row {
+       flex-direction: column;
+    }
+
+    .navigation-bar .mobile-nav .nav-menu .row .menu ,.navigation-bar .mobile-nav .nav-menu .nav-cta {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navigation-bar .mobile-nav {
+        background-color: rgba(0, 0, 0, 0.7);
+        position: absolute;
+        max-width: 100%;
+        min-height: 100vh;
+        flex: 0 0 100%;
+        right: -100%;
+        top: 0;
+        transition: ease-in 0.4s;
+    }
+
+    .show {
+       right: 0 !important;
+    }
+
+
+    .navigation-bar .mobile-nav .nav-menu {
+      background-color: #000;
+      width:40%;
+      min-height: 100vh;
+      margin-left: auto;
+      padding: 20px;
+    }
+
+
+    .nav-menu .menu .menu-items {
+        padding: 15px 0px;
+    }
+
+    .navigation-bar .nav-cta a {
+        margin: 10px 0px;
+        width: 100%;
+    }
+ /*************nav-bar resposive ends here*************/ 
+
+ .slider-section .slide {
+     max-width: 90%;
+ } 
+
+ .slider-section .slide .slide-inner {
+     min-height: 580px;
+ }
+ 
+}
+
+
+@media screen and (max-width: 767px) {
+    .app-container {
+        padding: 0px 20px;
+    }
+
+    .navigation-bar .mobile-nav .nav-menu {
+        width:80%;
+      }
+
+    .close-btn {
+        left: 10px;
+    }
+/*************nav-bar resposive ends here*************/   
+.hero-main .hero-content {
+    padding: 140px 0px;
+}
+
+.home-hero-section .hero-content .title-main .hero-description {
+    padding: 25px 0px 40px 0px;
+}
+
+.home-hero-section .hero-content .title-main .hero-title {
+    font-size: 48px;
+    line-height: 65px;
+}
+
+.home-hero-section .hero-content .title-main .hero-description {
+    font-size: 16px;
+}
+
+.cta-main a {
+    margin-bottom: 20px;
+    margin-right: 0px;
+    display: block;
+    text-align: center;
+}
+
+.social-media  {
+    right: 30px;
+    flex-direction: row-reverse;
+}
+
+.social-media .icons-menu {
+     display: flex;
+
+}
+
+.social-media .icons-menu .icons {
+    padding: 0px 10px 0px 0px;
+}
+
+.follow  {
+    transform: rotate(0deg);
+    margin-top: 0px;
+    margin-right: 80px;
+}
+/*******************hero-home-ends-here***********/
+.section {
+    padding: 60px 0px;
+}
+
+
+.title-main .section-title {
+    font-size: 32px;
+    line-height: 44px;
+} 
+
+.slider-section .slide-description {
+    padding: 0px 20px 0px 17px ; 
+}
+
+.slider-section .slide .slide-inner {
+    padding: 20px;
+}
+
+.cta-know-more  {
+    padding: 10px 20px;
+}
+/**************slider-main**********/
+.vid-thumbnail-img {
+    height: auto;
+}
+
+.vedio-outer  {
+    min-height: auto;
+}
+
+
+.testimonial-section {
+    padding: 75px 0px;
+}
+
+.testimonial-slider-main .testimonial-slider .testimonial-item .message-bubble  {
+    width: 100%;
+}
+
+
+}

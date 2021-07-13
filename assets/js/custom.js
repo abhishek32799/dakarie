@@ -32,6 +32,21 @@ $(document).ready(function () {
     })
 
 
+    $('.testimonial-slider').owlCarousel({
+        margin: 20,
+        responsiveClass: true,
+        responsive: {
+            0: {
+                items: 1,
+                dots: true,
+
+            },
+        }
+    })
+
+
+
+
 
 
 });
