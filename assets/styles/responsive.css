@@ -49,6 +49,7 @@
 
     .show {
        right: 0 !important;
+       
     }
 
 
@@ -70,6 +71,11 @@
         width: 100%;
     }
  /*************nav-bar resposive ends here*************/ 
+.hero-main {
+    background-position: center;
+}
+
+ /************hero-section*********/
 
  .slider-section .slide {
      max-width: 90%;
@@ -97,6 +103,10 @@
 /*************nav-bar resposive ends here*************/   
 .hero-main .hero-content {
     padding: 140px 0px;
+}
+
+.hero-main {
+    background-position: 60% 0%;
 }
 
 .home-hero-section .hero-content .title-main .hero-description {
@@ -145,8 +155,8 @@
 
 
 .title-main .section-title {
-    font-size: 32px;
-    line-height: 44px;
+    font-size: 32px !important;
+    line-height: 44px !important;
 } 
 
 .slider-section .slide-description {
@@ -176,6 +186,21 @@
 
 .testimonial-slider-main .testimonial-slider .testimonial-item .message-bubble  {
     width: 100%;
+}
+/******************************************/
+
+.footer-section .footer-menu {
+    
+   
+}
+
+.footer-section .footer-menu .footer-menu-item {
+    border-right:none;
+    white-space: nowrap;
+}
+
+.footer-section .social-media-menu .social-meida-icons {
+    padding: 0px 10px;
 }
 
 

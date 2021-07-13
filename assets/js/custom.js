@@ -8,10 +8,13 @@ $(document).ready(function () {
 
     $('.mobile-btn').click(function () {
         $('.mobile-nav').addClass('show');
+        $('body').addClass('disable-scroll');
+
     });// show mobile menu
 
     $('.close-btn').click(function () {
         $('.mobile-nav').removeClass('show');
+        $('body').removeClass('disable-scroll');
     });// show mobile menu
 
     $('.owl-carousel').owlCarousel({
