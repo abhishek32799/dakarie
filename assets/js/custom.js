@@ -15,18 +15,17 @@ $(document).ready(function () {
     });// show mobile menu
 
     $('.owl-carousel').owlCarousel({
-        margin: 80,
-        nav: true,
+        margin: 10,
         responsiveClass: true,
         responsive: {
             0: {
                 items: 1,
-                nav: true
+                dots: true
             },
 
             1024: {
                 items: 2,
-                nav: true
+                dots: true
             }
 
         }
