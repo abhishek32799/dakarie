@@ -342,12 +342,12 @@ h1 ,h2 , h3, h4, h5, h6, p, ul, ol {
 }
 
 
-.slider-section .title-main {
+.title-main {
     padding-bottom: 60px;
 }
 
 
-.slider-section .title-main .section-title {
+.title-main .section-title {
     font-style: normal;
     font-weight: bold;
     font-size: 40px;
@@ -359,7 +359,7 @@ h1 ,h2 , h3, h4, h5, h6, p, ul, ol {
 }
 
 
-.slider-section .title-main .section-description {
+.title-main .section-description {
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -455,10 +455,43 @@ h1 ,h2 , h3, h4, h5, h6, p, ul, ol {
 
 .slider-container .owl-carousel .owl-dots .active {
     background-color: #FEC737;
+    border: 1px solid #FEC737;
 }
 
 
 /****************slider-section-ends-here**************/
+
+.bg-dark-purple {
+    background-color: #0D1124;
+}
+
+
+.vedio-outer {
+    max-width: 970px;
+    min-height: 450px;
+    margin: auto;
+    position: relative;
+}
+
+.vedio-outer::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: rgba(17, 23, 49, 0.2);
+    border: 1px solid #FECF60;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: +1;
+}
+
+
+.vid-thumbnail-img {
+     max-width: 100%;
+     height: 100%;
+     box-shadow: 0px 4px 36px rgba(0, 0, 0, 0.25);
+
+}
 
 
 
@@ -606,6 +639,16 @@ h1 ,h2 , h3, h4, h5, h6, p, ul, ol {
     margin-right: 80px;
 }
 /*******************hero-home-ends-here***********/
+.section {
+    padding: 60px 0px;
+}
+
+
+.title-main .section-title {
+    font-size: 32px;
+    line-height: 44px;
+} 
+
 .slider-section .slide-description {
     padding: 0px 20px 0px 17px ; 
 }
@@ -618,6 +661,14 @@ h1 ,h2 , h3, h4, h5, h6, p, ul, ol {
     padding: 10px 20px;
 }
 /**************slider-main**********/
+.vid-thumbnail-img {
+    height: auto;
+}
+
+.vedio-outer  {
+    min-height: auto;
+}
+
 
 }
 
