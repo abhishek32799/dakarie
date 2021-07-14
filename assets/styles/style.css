@@ -173,9 +173,22 @@ h1 ,h2 , h3, h4, h5, h6, p, ul, ol {
     min-height: 848px;
 }
 
-.hero-main::before {
+
+.content-creators-hero {
+    background: url(../images/hero-img-content-creators.jpg);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 100%; 
+    min-height: 848px;
+}
+
+
+
+.hero-main::before , .content-creators-hero::before {
     content: "";
     width: 100%;
+    height: 100%;
     background:linear-gradient(183.12deg, #0C0C0C 5.2%, rgba(12, 12, 12, 0) 27.77%) ,  linear-gradient(89.34deg, #0C0C0C 3.42%, rgba(12, 12, 12, 0) 48.79%);
     background-position: center;
     background-repeat: no-repeat;
@@ -183,6 +196,7 @@ h1 ,h2 , h3, h4, h5, h6, p, ul, ol {
     position: absolute;
     left: 0;
     top: 0;
+   
 }
 
 .home-hero-section .hero-content  {
@@ -382,6 +396,16 @@ h1 ,h2 , h3, h4, h5, h6, p, ul, ol {
     width: 528px;
     min-height: 560px;
     border: 1px solid #D28721;
+}
+
+
+.why-dakarie-slider .content-creators-slider  .slide {
+    background-image: url(../images/content-creators-slider-img-1.jpg);/* for content creators slider image*/
+}
+
+
+.why-dakarie-slider .content-creators-slider .slide-second {
+    background-image: url(../images/content-creators-slider-img-2.jpg) !important;
 }
 
 

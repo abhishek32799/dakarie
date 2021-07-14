@@ -2,13 +2,21 @@
 
 
 /*********************resposive***********************/
-
+@media screen and (max-width: 1199px) {
+    .navigation-bar .nav-menu .row .menu-main {
+        width: 0%;
+    }
+}
 
 
 @media screen and (max-width: 1024px) {
 
     .app-container {
         padding: 0px 40px;
+    }
+
+    .navigation-bar .nav-menu .row .menu-main {
+        width: 100%;
     }
   
     .nav-menu {
